@@ -1,0 +1,44 @@
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(image/backgroundSS.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff !important;
+    height: 100vh;
+}
+
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+ .icon{
+    text-align: center;
+    font-size: 40px;
+    margin: 20px auto;
+   padding: 20px;
+   height:50px;
+   width: 50px;
+   border: 1px solid white;
+   border-radius: 50%;    
+
+ } 
+.text{
+    margin-top: 150px;
+    margin-left: 50px;
+}
+.text h3{
+    text-align: center;
+}
+.text p {
+    font-size: 20px;
+}
+
+.services{
+    margin: 90px auto;
+    text-align: center;
+}
+

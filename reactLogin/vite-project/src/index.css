@@ -1,0 +1,67 @@
+ 
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+  }
+  .loginpage {
+    display: flex;
+    text-align: center; 
+    max-width: 100%;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  } 
+  .welcomeMessage{
+    padding: 10px;
+    width: 400px;
+   background-color:  #86A8E7 ;
+  }
+
+  .loginForm{
+    padding: 50px;
+    width: 400px;
+    background: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+  }
+ 
+  form label,input{
+    display: block;
+    width: 100%;
+    height: 35px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+  }
+
+
+ form button{
+  background-color: #46eefa;
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+   width: 100px;
+  }
+   
+  @media (max-width: 500px) {
+    .container {
+      display: block;
+      padding: 10px;  
+      
+     }
+     
+    .loginpage { 
+      display: block;
+      padding: 30px;
+      max-width: none;  
+    }
+    .welcomeMessage{
+      max-width: 100%;
+    }
+    .loginForm{
+      padding: 10px;
+      max-width: 100%;
+    }
+  }

@@ -1,0 +1,152 @@
+.title{
+  text-align: center;
+}
+.body{
+  max-width: 100%;
+   height: 100 rem;
+   max-height: 100%;
+  display: grid;
+  grid-template-areas: 'gridOne     gridTwo '                        
+                       'gridOne    gridTwo'
+                       ;
+  grid-gap: 10px;
+  grid-template-columns:  13% 85%  ;
+  grid-template-rows:  15% 85%  ;
+  margin:  5% ;
+  margin-top: 40px;
+  background-color: aqua;
+}
+
+
+.shesh{
+  max-width: 100%;
+   height: 100 rem;
+   max-height: 100%;
+  display: grid;
+  grid-template-areas: 'input    output '                        
+                       'input    output'
+                       ;
+  grid-gap: 50px;
+  grid-template-columns:  50% 45%  ;
+  grid-template-rows:  auto auto;
+  margin:  5% ;
+}
+
+
+.Navbar{
+    grid-area: gridOne;
+  background-color: black;
+   
+}
+.content{
+    grid-area: gridTwo;
+   
+    
+}
+
+ #track{
+  display: block ;
+ }
+
+#day{
+  display: none;
+}
+
+#week{
+  display: none;
+}
+#month{
+  display: none;
+}
+
+#year{
+  display: none;
+}
+
+
+
+
+ #expenses{
+  width: 380px;
+  height:40px;
+  border-radius: 5px;
+  font-size: large;
+  margin: 5px;
+ }
+ .content button {
+  margin: 5px;
+  width: 385px; 
+  height:40px;
+  border-radius: 5px;
+ }
+ 
+ 
+ 
+
+ .button{
+  grid-area: input;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 5px;
+  width: 400px;
+  max-width: 1000%;
+  border: solid 1px black;
+ }
+
+.x{
+  grid-area: output;
+  max-width: 100%;
+  margin-left: 50px;
+}
+
+.x input{
+  height: 40px;
+  width: 250px;
+  border-radius: 10px;
+  font-size: large;
+}
+.x label{
+  font-size:30px;
+}
+
+
+
+.navList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70%;
+  }
+  
+  button {
+    margin: 15% 5px  ;
+    padding: 10px;
+  }
+
+  
+
+
+ .table table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  margin-top: 3%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 5px;
+  width: 80%;
+  max-width: 100%;
+ 
+}
+
+ 
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}

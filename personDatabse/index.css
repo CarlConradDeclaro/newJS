@@ -1,0 +1,19 @@
+form >   input {   
+   display: flex;
+}
+
+form{
+    margin: 10px;
+}
+
+form> .sumbit{
+    margin: 10px;
+}
+
+table, th, td {
+    border:1px solid black;
+  }
+
+  h1{
+    color: aqua;
+  }

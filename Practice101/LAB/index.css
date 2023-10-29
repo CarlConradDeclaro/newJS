@@ -1,0 +1,17 @@
+
+
+
+.item div{
+    display: flex;
+    background-color: aqua;
+    width: 150px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+
+
+ p{
+    text-align: center;
+ }
+

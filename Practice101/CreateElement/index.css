@@ -1,0 +1,27 @@
+.menu{
+    display: flex;
+    justify-content: center;
+     margin: 100px;
+}
+.menu input{
+    width: 300px;
+    margin-left:10px;
+}
+.menu button{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border:none;
+}
+
+ 
+.div-style{
+    width: 200px;
+    height: 190px;
+    background-color: aquamarine;
+    box-shadow: 0px 0px 10px var(--clr-gray-med);
+    background-color: aqua;
+    margin: 10px;
+    border-radius: 10px;
+  
+}
