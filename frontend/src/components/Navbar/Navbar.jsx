@@ -39,9 +39,7 @@ const Navbar = () => {
             <FiSearch className='search-icon' ></FiSearch>
           </div>
         </form>
-
-         <BiMenu className="toggle-icon" onClick={toggle} />
-        <h1 className="logo">Navbar Test</h1>
+         
     </header>
   )
 }
