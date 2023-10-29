@@ -1,9 +1,9 @@
 
 
-const Story = () => {
+const Story = (props) => {
   return (
     <div className="story">
-        
+      <p>{props.name}</p>
     </div>
   )
 }

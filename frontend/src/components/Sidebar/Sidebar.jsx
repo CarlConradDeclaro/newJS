@@ -1,6 +1,10 @@
+
 import Categories from './Categories';
 import People from './People';
 import Profile from './Profile';
+=======
+import { useState } from "react"
+
 
 const Sidebar = () => {
   return (
