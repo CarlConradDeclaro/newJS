@@ -19,6 +19,7 @@ const Navbar = () => {
   return (
     <header className="navbar container">
 
+
       {showSearch && 
         <div className="clicked-search">
           <div className="back-container" onClick={() => setshowSearch(false)}>
@@ -39,6 +40,8 @@ const Navbar = () => {
           </div>
         </form>
 
+         <BiMenu className="toggle-icon" onClick={toggle} />
+        <h1 className="logo">Navbar Test</h1>
     </header>
   )
 }

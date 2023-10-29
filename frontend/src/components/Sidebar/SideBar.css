@@ -1,3 +1,15 @@
+
+/* Sidebar */
+
+.section-title {
+    font-size: 1em;
+}
+
+.sections {
+    font-size: 1em;
+    margin: 20px 0px;
+}
+
 /* Profile Styles */
 
 .profile-section {
@@ -22,6 +34,10 @@
 .profileButton {
     border-radius: 10px;
     padding: 3px;
+}
+
+.userInfo {
+    font-size: 1.3rem;
 }
 
 /* People Styles */
