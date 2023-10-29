@@ -1,11 +1,12 @@
 .navbar {
-    padding: 0.5em;
     display: flex;
     align-items: center;
     gap: 0.5rem;
     position: fixed;
     width: 100vw;
     z-index: 9;
+    height: 5rem;
+    background-color: purple;
 }
 
 .toggle-icon {
@@ -15,8 +16,10 @@
 }
 
 .logo {
-    color: purple;
+    color: white;
     font-size: 1.7rem;
+    text-align: left;
+    background-color: red;
 }
 
 .input-section {
@@ -36,7 +39,7 @@
 }
 
 .search-container {
-    background-color: purple;
+    background-color: white;
     padding: 0.5rem;
     border-radius: 100%;
     height: 2.5rem;
@@ -45,17 +48,17 @@
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    right: 0;
+    margin-right: 5px;
 }
-
 
 
 .search-icon {
     font-size: 1.2rem; 
-    color: white;
+    color: black;
 }   
 
-.clicked-search
-{
+.clicked-search {
     position: absolute;
     padding: 3rem 1rem;
     height: auto;
@@ -71,8 +74,8 @@
     gap: 0.5rem;
 }
 
-.clicked-search input
-{
+
+.clicked-search input {
     height: 2.4rem;
     border-radius: 10px;
     height: 3rem;
@@ -82,10 +85,10 @@
     font-size: 1rem;
     font-weight: 300;
     padding-left: 0.5rem;
+
 }
 
-.back-container
-{
+.back-container {
     height: 2.1rem;
     width: 2.4rem;
     display: flex;
@@ -95,12 +98,32 @@
     background-color: white;
 }
 
-.back{
+.back {
     font-size: 1.5rem;
     cursor: pointer;
 }
 
-.back-container:hover
-{
+.back-container:hover {
     opacity: 0.9;
+}
+
+@media (min-width: 1200px) {
+    .input-section > input
+    {
+        display: block;
+    }
+
+    .logo {
+        width: 17%;
+        text-align: center;
+        color: white;
+    }
+
+    .clicked-search {
+        display: none;
+    }
+
+    .search-container{
+        position: absolute;
+    }
 }
