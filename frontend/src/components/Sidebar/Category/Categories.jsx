@@ -2,6 +2,7 @@ import {GrCatalogOption} from "react-icons/gr";
 import {GrFreebsd} from "react-icons/gr";
 import {GrMusic} from "react-icons/gr";
 import {GrMysql} from "react-icons/gr";
+import '../SideBar.css';
 
 function Categories() {
   return (

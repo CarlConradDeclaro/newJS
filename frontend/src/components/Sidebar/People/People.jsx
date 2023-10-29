@@ -1,4 +1,6 @@
-import DefaultImage from '../../assets/defaultProfile.jpg';
+import DefaultImage from '../../../assets/defaultProfile.jpg';
+import '../SideBar.css';
+
 function People() {
   return (
     <div className="sections people-section">
