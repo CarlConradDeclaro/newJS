@@ -7,6 +7,8 @@ const Navbar = () => {
     const backdrop = document.querySelector('.backdrop')
     side.classList.toggle('show')
     backdrop.classList.toggle('darken')
+
+    console.log('click')
   }  
   
 
