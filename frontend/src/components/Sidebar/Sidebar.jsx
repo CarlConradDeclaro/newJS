@@ -1,13 +1,17 @@
-import { useState } from "react"
+import Categories from './Category/Categories';
+import People from './People/People';
+import Profile from './Profile/Profile';
 
 const Sidebar = () => {
   return (
     <div className="backdrop container">
       <div className="sidebar">
-        <h3>Sidebar</h3>
+        <Profile/>
+        <Categories/>
+        <People/>
       </div>
     </div>
-  )
+  );
 }
 
-export default Sidebar
+export default Sidebar;
