@@ -23,7 +23,7 @@ const Navbar = () => {
   return (
     <header className="navbar container">
          <BiMenu className="toggle-icon" onClick={toggle} />
-        <h1 className="logo">Navbar</h1>
+        <h1 className="logo">Navbar Test</h1>
     </header>
   )
 }
