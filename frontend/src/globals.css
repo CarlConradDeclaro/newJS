@@ -7,8 +7,7 @@
         --primary-color: ;
         --secondary-color: ;
         --hover-color: ;
-        /* --ff: 'Kanit', sans-serif; */
-        --ff: sans-serif;
+        --ff: 'Kanit', sans-serif;
 
     }
 
@@ -90,111 +89,22 @@
     /* == NAVBAR == */
 
     .navbar {
-        padding: 0.5em;
-        display: flex;
-        align-items: center;
-        gap: 0.5rem;
+        padding: 1em;
         position: fixed;
-        width: 100vw;
         z-index: 9;
+        width: 100%;
     }
 
     .toggle-icon {
+        position: absolute;
+        z-index:  9;
         font-size: 2rem;
-        left: 0;
-        cursor: pointer;
     }
 
     .logo {
-        color: purple;
-        font-size: 1.7rem;
+        margin-left: 2em;
     }
 
-    .input-section {
-        position: relative;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        opacity: 1;
-    }
-
-    .input-section > input
-    {
-        padding: 0.5rem;
-        display: none;
-        outline: none;
-        width: 25rem;
-    }
-
-    .search-container {
-        background-color: purple;
-        padding: 0.5rem;
-        border-radius: 100%;
-        height: 2.5rem;
-        width: 2.5rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        cursor: pointer;
-    }
-
-    
-
-    .search-icon {
-        font-size: 1.2rem; 
-        color: white;
-    }   
-
-    .clicked-search
-    {
-        position: absolute;
-        padding: 3rem 1rem;
-        height: auto;
-        width: 320px;
-        left: 0;
-        background-color: purple;
-        top: 0;
-        z-index: 11;
-        border-bottom-right-radius: 10px;
-        display: flex;
-        align-items: center;
-        flex-direction: row;
-        gap: 0.5rem;
-    }
-
-    .clicked-search input
-    {
-        height: 2.4rem;
-        border-radius: 10px;
-        height: 3rem;
-        width: 100%;
-        border: none;
-        outline: none;
-        font-size: 1rem;
-        font-weight: 300;
-        padding-left: 0.5rem;
-    }
-
-    .back-container
-    {
-        height: 2.1rem;
-        width: 2.4rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 100%;
-        background-color: white;
-    }
-
-    .back{
-        font-size: 1.5rem;
-        cursor: pointer;
-    }
-
-    .back-container:hover
-    {
-        opacity: 0.9;
-    }
 
     /* == SIDEBAR == */
 
@@ -202,111 +112,22 @@
         position: fixed;
         width: 100%;
         height: 100vh;
-
-        font-size: 20px;
-
-        display: none;
-
     }
     
     .sidebar {
+      
         transform: translateX(-100vw);
-        transition: transform .2s;
+        transition: transform .5s;
         margin-top: 3.8em;
-        width: 40%;
-        padding: 20px;
+        width: 200px;
         height: 100vh;
-        background-color: rgb(255, 255, 255);
-    }
-
-    
-    .sections {
-        margin: 20px 0px;
-        font-size: 1em;
-        min-width: 10%;
-    }
-    
-    /* Profile Area */
-
-    .profile-section {
-        line-height: 1.8rem;
-        flex-direction: column;
-        display: flex;
-        justify-content: center;
-        align-items: center;
         background-color: white;
-        border-radius: 10px;
-        padding: 10px;
     }
     
-    .profile {
-        height: 90px;
-        width: 90px;
-        border: 1px solid black;
-        border-radius: 50%;
-        margin: 20px;
-    }
-
-    .profileButton {
-        border-radius: 10px;
-        padding: 3px;
-    }
-
-    /* Categories */
-
-    .categories-section {
-        line-height: 1.8rem;
-        flex-direction: column;
-        display: flex;
-        align-items: flex-start;
-        background-color: white;
-        border-radius: 10px;
-        padding: 10px;
-    }
-
-    .category {
-        text-align: start;
-    }
-
-    .list-ul {
-        list-style-type: none;
-    }
-    
-    .list-ul li {
-        display: flex;
-        align-items: center;
-        margin: 20px 0px;
-    }
-
-    .spacer {
-        margin-left: 10px;
-        min-width: 10px;
-    }
-    
-    /* People Section */
-
-    .people-section {
-        line-height: 1.8rem;
-        flex-direction: column;
-        display: flex;
-        align-items: flex-start;
-        background-color: white;
-        border-radius: 10px;
-        padding: 10px;
-    }
-
-    .people-profile {
-        height: 35px;
-        width: 35px;
-        border-radius: 50%;
-        border: 2px solid green;
-    }
-    
-
     /* === POSTS COMPONENTS(src/components/posts) === */ 
     .posts {
+        margin-top: 5em;
         border: 1px solid red;
-        margin-top: 4.3rem;
     }
 
     .flex-col {
@@ -329,7 +150,7 @@
     /* == POST-LIST == */
 
     .post-list {
-        height: 100vh;
+        /* height: 100vh; */
     }
 
       /* == RIGHT BAR == */
@@ -364,10 +185,10 @@
     
     .darken {
         background: rgba(0,0,0,0.5); 
-        display: block;
     }
 
     .show {
+       
         display: block;
         transform: translateX(0)
     }
@@ -382,12 +203,6 @@
         MEDIA QUERIES
     ==================*/
 
-    /* @media (min-width: 320px) {
-    
-
-    } */
-    
-    /* Tablet Size */
     @media (min-width: 720px) {
         .grid {
             grid-template-columns: repeat(4, minmax(100px, 1fr));
@@ -407,7 +222,6 @@
             align-items: flex-start;
             justify-content: space-between;
         }
-
 
     }
     
@@ -439,64 +253,20 @@
         }
 
         .backdrop {
-            position: relative;
             grid-row: 2;
             background: unset;
             position: unset;
             height: 100vh;
             grid-column: 1 / 3;
-
-            background-color: rgb(255, 255, 254);
-=======
-            display: block;
-
+            border: none;
         }
       
         .sidebar {
-            padding: 35px;
+            border: 1px solid;
             position: fixed;
             transform: translateX(0);
-            width: 16.2%;
-            margin: unset;
-            display: block;
-        }
-        
-        .clicked-search {
-            display: none;
-        }
-
-        .input-section {
-            height: 2.5rem;
-            margin-left: 2rem;
-            opacity: 0.5;
-        }
-
-        .input-section > input
-        {
-            display: block;
-            height: inherit;
-            border: 1px solid purple;
-        }
-
-        .search-container
-        {
-            position: absolute;
-            right: 0;
-            width: 2.1rem;
-            height: 2.1rem;
-            margin-right: 0.1rem;
-            background-color: white;
-        }
-
-        .search-icon {
-            color: purple;
-        }
-
-        .logo
-        {
             width: 15%;
-            text-align: center;
+            height: 100vh;
+            margin: unset;
         }
-
-
     }
