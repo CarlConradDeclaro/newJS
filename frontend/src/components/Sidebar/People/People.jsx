@@ -1,10 +1,10 @@
 import DefaultImage from '../../../assets/defaultProfile.jpg';
-import '../SideBar.css';
+import '../Sidebar.css';
 
 function People() {
   return (
     <div className="sections people-section">
-        <h2>People</h2>
+        <h2 className='section-title'>People</h2>
         <ul className='list-ul'>
             <li>
                 <img className='people-profile' src={DefaultImage} alt="A user" />

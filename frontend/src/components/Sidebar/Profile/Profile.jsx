@@ -1,20 +1,20 @@
 import DefaultImage from '../../../assets/defaultProfile.jpg';
-import '../SideBar.css';
+import '../Sidebar.css';
 
 
 const Profile = () => {
-  return (
-    <div className='sections profile-section'>   
-
+    return (
+        <div className='sections profile-section'>   
+        <h2 className='section-title'>Profile</h2>
         <figure>
             <img className='profile' src={DefaultImage} alt="Default Profile" />
         </figure>
 
-        <h3 className='userName userInfo'>Username</h3>
-        <h4 className='userCourse userInfo'>Course</h4>
+        <h3 className='userInfo'>Username</h3>
+        <h5 className='userCourse'>Course</h5>
         <button className='profileButton'>View Profile</button>
-    </div>
-  );
+        </div>
+    );
 }
 
 export default Profile;
