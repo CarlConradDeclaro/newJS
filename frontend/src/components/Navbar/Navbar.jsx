@@ -4,6 +4,7 @@ import {FiSearch} from 'react-icons/fi'
 import {BiArrowBack} from 'react-icons/bi'
 import { useState } from 'react';
 import './Navbar.css'
+
 const Navbar = () => {
 
   const [showSearch, setshowSearch] = useState(false);

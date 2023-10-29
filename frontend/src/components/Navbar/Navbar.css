@@ -54,8 +54,7 @@
     color: white;
 }   
 
-.clicked-search
-{
+.clicked-search {
     position: absolute;
     padding: 3rem 1rem;
     height: auto;
@@ -71,8 +70,7 @@
     gap: 0.5rem;
 }
 
-.clicked-search input
-{
+.clicked-search input {
     height: 2.4rem;
     border-radius: 10px;
     height: 3rem;
@@ -84,8 +82,7 @@
     padding-left: 0.5rem;
 }
 
-.back-container
-{
+.back-container {
     height: 2.1rem;
     width: 2.4rem;
     display: flex;
@@ -95,12 +92,11 @@
     background-color: white;
 }
 
-.back{
+.back {
     font-size: 1.5rem;
     cursor: pointer;
 }
 
-.back-container:hover
-{
+.back-container:hover {
     opacity: 0.9;
 }
