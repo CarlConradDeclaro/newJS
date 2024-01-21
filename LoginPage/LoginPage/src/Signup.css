@@ -1,0 +1,40 @@
+ body{
+        background-color: #E8E8E8;
+        margin: 0;
+    }
+
+.container{
+  
+    max-width: 500px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    margin: 10% 5% auto 5%;
+     padding: 15px;
+    box-shadow: 5px 10px 18px #888888;
+}
+.create{
+    display: flex;
+    justify-content: center;
+}    
+ .container form {  
+    padding: 10px;
+ }
+ form input{
+   display: block;
+   margin: 10px;
+
+   width:80%;
+   height: 25px;
+   border-radius: 10px;
+   outline: none;
+   border: 0.9px solid rgb(34, 21, 21);
+   font-size:x-large;
+   padding: 10px;
+}
+ 
+ form > div{
+    display: flex;
+    width: 90%;
+ }
+
+ 

@@ -1,0 +1,21 @@
+ body{
+  margin: 0;
+  background-color: #232A37;
+ }
+
+ .container{
+  display: flex;
+  margin: 20px;
+  background-color: #151B26;
+ }
+ 
+ .container > div:nth-child(1) {
+  flex: 0.7; 
+}
+ .container > div:nth-child(2) {
+  flex: 2; 
+}
+.container > div:nth-child(3) {
+  flex: 0.6; 
+}
+

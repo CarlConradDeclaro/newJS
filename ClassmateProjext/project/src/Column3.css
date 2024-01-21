@@ -1,0 +1,53 @@
+.sidebar{
+    padding: 20px;
+}
+.tools{
+    margin-top: 80px;
+}
+.tools div{ 
+    background-color: rgb(190, 190, 154); 
+    width: 130px;
+    height: 30px;
+    margin-left: 10px; 
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 5px;   
+    font-size:20px;
+}
+.tools div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tools div:hover{
+    background-color: rgb(216, 216, 216);
+}
+.theme {
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.darkmode {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1f1f1;
+    color: #f1f1f1;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+ .tools div:hover{
+    cursor: pointer;
+ }

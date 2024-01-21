@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+}
+.columns{
+    display: flex;
+    
+}
+.items {
+    flex: 1;
+}
+.item:nth-child(1) {
+    flex: 0.5; /* Set the second item (middle) to flex: 2 */
+  }
+.item:nth-child(2) {
+    flex: 2; /* Set the second item (middle) to flex: 2 */
+  }

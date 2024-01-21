@@ -1,0 +1,61 @@
+ .Column1{
+    color: #FFFFFF;
+    padding: 20px;
+ }
+ .userProfile  {
+    display: flex;
+    align-items: center;
+   
+ }
+ .userProfile .img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FE7C4A;
+    width: 75px;
+    height: 70px;
+    border-radius: 10px;
+}
+.userProfile .userName{
+    font-size: large;
+    margin-left: 20px;
+}
+
+.menubar{
+     display: block;
+     margin-top: 50px;
+}
+
+
+ .Home, .Following , .Events , .Setting{
+    
+    display: flex; 
+    align-items: center;
+    height: 50px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+ }
+
+ .label{
+    margin-left: 10px;
+ }
+
+ .menubar div:hover{
+    background-color: #000000;
+    cursor: pointer;
+   
+ }
+ 
+.menubar h4:hover{
+    color: white;
+}
+ .icon{
+    background-color: #232A37;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    width: 35px;
+    height: 35px;
+ }

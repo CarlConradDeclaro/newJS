@@ -1,0 +1,148 @@
+    body{
+        background-color: #E8E8E8;
+        margin: 0;
+    }
+    .login{
+        margin-top: 5%;
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 1000px;
+    }
+
+    .title{
+        display: flex;
+        justify-content: center;
+    }
+    .SignIn{
+        background-color: #FFFFFF;
+        border-radius: 10px;
+        margin: 10% 5% auto 5%;
+    
+        padding: 15px;
+        box-shadow: 5px 10px 18px #888888;
+    }
+
+    .SignIn div{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .SignIn div input{
+        width: 90%;
+        height: 25px;
+        border-radius: 20px;
+        outline: none;
+        border: 0.9px solid gray;
+        font-size:x-large;
+        padding: 10px;
+    }
+
+    .SignIn div input::placeholder{
+        padding: 10px;  
+    }
+    .forgotPass a{
+    color: grey; 
+    }
+    .SignIn .forgotPass {
+        display: flex;
+        justify-content:end;
+    }
+
+    .btn button{
+        width: 90%;
+        height: 50px;
+        border-radius: 20px;
+        outline: none;
+        font-size:x-large;
+    color: white;
+    background-color: #008080;
+    }
+    .btn button:hover{
+        cursor: pointer;
+    }
+
+    .SignIn .signUp{
+        display: flex;
+        justify-content: start;
+        color: grey; 
+        
+    }
+    .signUp a{
+        color: #008080;
+        font-size: large;
+    }
+
+    .SignIn .accounts{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .apple,.google{
+        width: 95%;
+    }
+
+    .accounts .apple button,.google button{
+        width: 90%;
+        height: 50px;
+        border-radius: 20px;
+        font-size: larger;
+        box-shadow: 1px 1px 5px #888888;
+    }
+    .apple button{
+        background-color: black;
+        color: white;
+    }
+
+    .apple button:hover, .google button:hover{
+        cursor: pointer;
+    }
+
+    
+    
+
+@media only screen and (max-width: 390px) {
+        .SignIn{   
+            margin: 20% 5% auto 5%;
+            padding: 15px;           
+        }
+        .title h1{
+            font-size: large;
+        }
+        .forgotPass a{
+            font-size: small;
+        }
+        .SignIn div input{
+            width: 80%;
+            height: 20px;
+            border-radius: 15px;
+            font-size:small;
+        }
+        .btn button{
+            height: 40px;
+            font-size:large;
+            border-radius: 15px;
+            
+        }
+        .signUp p{
+            font-size: smaller;
+        }
+
+        .accounts .apple button,.google button{
+            width: 90%;
+            height: 40px;
+            border-radius: 15px;
+            font-size: small;
+        }
+    }
+
+    @media only screen and (min-width: 1000px) {
+        .SignIn{
+          margin-top: 5%;
+          width: 40%;          
+          margin-left: auto;
+          margin-right: auto;
+        }
+      }
+
+ 
+   
