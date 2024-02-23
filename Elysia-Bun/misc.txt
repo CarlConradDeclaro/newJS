@@ -1,0 +1,8 @@
+install bun in powershell:  iwr https://bun.sh/install.ps1 -useb | iex
+
+install bun --watch index.ts  is like nodemon 
+or
+un --hot index.ts
+
+
+to run elysia if "bun dev" is not working use "bun run --watch src/index.ts"
